@@ -1,6 +1,6 @@
 //
 //  Employer.swift
-//  AchmeaSearchApp
+//  EmployerSearchApp
 //
 //  Created by Annette Straver on 25/03/2025.
 //

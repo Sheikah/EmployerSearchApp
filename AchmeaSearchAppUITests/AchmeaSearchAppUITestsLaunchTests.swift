@@ -1,13 +1,13 @@
 //
-//  AchmeaSearchAppUITestsLaunchTests.swift
-//  AchmeaSearchAppUITests
+//  EmployerSearchAppUITestsLaunchTests.swift
+//  EmployerSearchAppUITests
 //
 //  Created by Annette Straver on 25/03/2025.
 //
 
 import XCTest
 
-final class AchmeaSearchAppUITestsLaunchTests: XCTestCase {
+final class EmployerSearchAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,6 @@
 //
-//  AchmeaSearchAppApp.swift
-//  AchmeaSearchApp
+//  EmployerSearchAppApp.swift
+//  EmployerSearchApp
 //
 //  Created by Annette Straver on 25/03/2025.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct AchmeaSearchAppApp: App {
+struct EmployerSearchAppApp: App {
     var body: some Scene {
         WindowGroup {
             EmployerSearchView(viewModel: EmployerSearchViewModel())
