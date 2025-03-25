@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C88DCBE82D93034C00884CE0 /* AchmeaSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AchmeaSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88DCBFB2D93034E00884CE0 /* AchmeaSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AchmeaSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88DCC052D93034E00884CE0 /* AchmeaSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AchmeaSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88DCBE82D93034C00884CE0 /* EmployerSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployerSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88DCBFB2D93034E00884CE0 /* EmployerSearchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployerSearchAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88DCC052D93034E00884CE0 /* EmployerSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployerSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		C88DCBE92D93034C00884CE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C88DCBE82D93034C00884CE0 /* AchmeaSearchApp.app */,
-				C88DCBFB2D93034E00884CE0 /* AchmeaSearchAppTests.xctest */,
-				C88DCC052D93034E00884CE0 /* AchmeaSearchAppUITests.xctest */,
+				C88DCBE82D93034C00884CE0 /* EmployerSearchApp.app */,
+				C88DCBFB2D93034E00884CE0 /* EmployerSearchAppTests.xctest */,
+				C88DCC052D93034E00884CE0 /* EmployerSearchAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C88DCBE72D93034C00884CE0 /* AchmeaSearchApp */ = {
+		C88DCBE72D93034C00884CE0 /* EmployerSearchApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C88DCC0F2D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchApp" */;
+			buildConfigurationList = C88DCC0F2D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchApp" */;
 			buildPhases = (
 				C88DCBE42D93034C00884CE0 /* Sources */,
 				C88DCBE52D93034C00884CE0 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				C88DCBEA2D93034C00884CE0 /* EmployerSearchApp */,
 			);
-			name = AchmeaSearchApp;
+			name = EmployerSearchApp;
 			packageProductDependencies = (
 			);
 			productName = AchmeaSearchApp;
-			productReference = C88DCBE82D93034C00884CE0 /* AchmeaSearchApp.app */;
+			productReference = C88DCBE82D93034C00884CE0 /* EmployerSearchApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C88DCBFA2D93034E00884CE0 /* AchmeaSearchAppTests */ = {
+		C88DCBFA2D93034E00884CE0 /* EmployerSearchAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C88DCC122D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchAppTests" */;
+			buildConfigurationList = C88DCC122D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchAppTests" */;
 			buildPhases = (
 				C88DCBF72D93034E00884CE0 /* Sources */,
 				C88DCBF82D93034E00884CE0 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				C88DCBFE2D93034E00884CE0 /* EmployerSearchAppTests */,
 			);
-			name = AchmeaSearchAppTests;
+			name = EmployerSearchAppTests;
 			packageProductDependencies = (
 			);
 			productName = AchmeaSearchAppTests;
-			productReference = C88DCBFB2D93034E00884CE0 /* AchmeaSearchAppTests.xctest */;
+			productReference = C88DCBFB2D93034E00884CE0 /* EmployerSearchAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C88DCC042D93034E00884CE0 /* AchmeaSearchAppUITests */ = {
+		C88DCC042D93034E00884CE0 /* EmployerSearchAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C88DCC152D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchAppUITests" */;
+			buildConfigurationList = C88DCC152D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchAppUITests" */;
 			buildPhases = (
 				C88DCC012D93034E00884CE0 /* Sources */,
 				C88DCC022D93034E00884CE0 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				C88DCC082D93034E00884CE0 /* EmployerSearchAppUITests */,
 			);
-			name = AchmeaSearchAppUITests;
+			name = EmployerSearchAppUITests;
 			packageProductDependencies = (
 			);
 			productName = AchmeaSearchAppUITests;
-			productReference = C88DCC052D93034E00884CE0 /* AchmeaSearchAppUITests.xctest */;
+			productReference = C88DCC052D93034E00884CE0 /* EmployerSearchAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C88DCBE72D93034C00884CE0 /* AchmeaSearchApp */,
-				C88DCBFA2D93034E00884CE0 /* AchmeaSearchAppTests */,
-				C88DCC042D93034E00884CE0 /* AchmeaSearchAppUITests */,
+				C88DCBE72D93034C00884CE0 /* EmployerSearchApp */,
+				C88DCBFA2D93034E00884CE0 /* EmployerSearchAppTests */,
+				C88DCC042D93034E00884CE0 /* EmployerSearchAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		C88DCBFD2D93034E00884CE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C88DCBE72D93034C00884CE0 /* AchmeaSearchApp */;
+			target = C88DCBE72D93034C00884CE0 /* EmployerSearchApp */;
 			targetProxy = C88DCBFC2D93034E00884CE0 /* PBXContainerItemProxy */;
 		};
 		C88DCC072D93034E00884CE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C88DCBE72D93034C00884CE0 /* AchmeaSearchApp */;
+			target = C88DCBE72D93034C00884CE0 /* EmployerSearchApp */;
 			targetProxy = C88DCC062D93034E00884CE0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,10 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AchmeaSearchApp/AchmeaSearchApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EmployerSearchApp/EmployerSearchApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AchmeaSearchApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EmployerSearchApp/Preview Content\"";
 				DEVELOPMENT_TEAM = B9AZLYXZ35;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -411,7 +411,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = daanvermeulen.AchmeaSearchApp;
+				PRODUCT_BUNDLE_IDENTIFIER = daanvermeulen.EmployerSearchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -427,10 +427,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AchmeaSearchApp/AchmeaSearchApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EmployerSearchApp/EmployerSearchApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AchmeaSearchApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"EmployerSearchApp/Preview Content\"";
 				DEVELOPMENT_TEAM = B9AZLYXZ35;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -450,7 +450,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = daanvermeulen.AchmeaSearchApp;
+				PRODUCT_BUNDLE_IDENTIFIER = daanvermeulen.EmployerSearchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C88DCC0F2D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchApp" */ = {
+		C88DCC0F2D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C88DCC102D93034E00884CE0 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C88DCC122D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchAppTests" */ = {
+		C88DCC122D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C88DCC132D93034E00884CE0 /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C88DCC152D93034E00884CE0 /* Build configuration list for PBXNativeTarget "AchmeaSearchAppUITests" */ = {
+		C88DCC152D93034E00884CE0 /* Build configuration list for PBXNativeTarget "EmployerSearchAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C88DCC162D93034E00884CE0 /* Debug */,
