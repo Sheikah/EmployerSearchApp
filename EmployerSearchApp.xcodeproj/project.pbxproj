@@ -30,19 +30,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C88DCBEA2D93034C00884CE0 /* AchmeaSearchApp */ = {
+		C88DCBEA2D93034C00884CE0 /* EmployerSearchApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AchmeaSearchApp;
+			path = EmployerSearchApp;
 			sourceTree = "<group>";
 		};
-		C88DCBFE2D93034E00884CE0 /* AchmeaSearchAppTests */ = {
+		C88DCBFE2D93034E00884CE0 /* EmployerSearchAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AchmeaSearchAppTests;
+			path = EmployerSearchAppTests;
 			sourceTree = "<group>";
 		};
-		C88DCC082D93034E00884CE0 /* AchmeaSearchAppUITests */ = {
+		C88DCC082D93034E00884CE0 /* EmployerSearchAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AchmeaSearchAppUITests;
+			path = EmployerSearchAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		C88DCBDF2D93034C00884CE0 = {
 			isa = PBXGroup;
 			children = (
-				C88DCBEA2D93034C00884CE0 /* AchmeaSearchApp */,
-				C88DCBFE2D93034E00884CE0 /* AchmeaSearchAppTests */,
-				C88DCC082D93034E00884CE0 /* AchmeaSearchAppUITests */,
+				C88DCBEA2D93034C00884CE0 /* EmployerSearchApp */,
+				C88DCBFE2D93034E00884CE0 /* EmployerSearchAppTests */,
+				C88DCC082D93034E00884CE0 /* EmployerSearchAppUITests */,
 				C88DCBE92D93034C00884CE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C88DCBEA2D93034C00884CE0 /* AchmeaSearchApp */,
+				C88DCBEA2D93034C00884CE0 /* EmployerSearchApp */,
 			);
 			name = AchmeaSearchApp;
 			packageProductDependencies = (
@@ -131,7 +131,7 @@
 				C88DCBFD2D93034E00884CE0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C88DCBFE2D93034E00884CE0 /* AchmeaSearchAppTests */,
+				C88DCBFE2D93034E00884CE0 /* EmployerSearchAppTests */,
 			);
 			name = AchmeaSearchAppTests;
 			packageProductDependencies = (
@@ -154,7 +154,7 @@
 				C88DCC072D93034E00884CE0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C88DCC082D93034E00884CE0 /* AchmeaSearchAppUITests */,
+				C88DCC082D93034E00884CE0 /* EmployerSearchAppUITests */,
 			);
 			name = AchmeaSearchAppUITests;
 			packageProductDependencies = (
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C88DCBE32D93034C00884CE0 /* Build configuration list for PBXProject "AchmeaSearchApp" */;
+			buildConfigurationList = C88DCBE32D93034C00884CE0 /* Build configuration list for PBXProject "EmployerSearchApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C88DCBE32D93034C00884CE0 /* Build configuration list for PBXProject "AchmeaSearchApp" */ = {
+		C88DCBE32D93034C00884CE0 /* Build configuration list for PBXProject "EmployerSearchApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C88DCC0D2D93034E00884CE0 /* Debug */,
