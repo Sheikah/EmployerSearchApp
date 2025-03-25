@@ -19,10 +19,7 @@ class NetworkService {
         guard (response as? HTTPURLResponse)?.statusCode == 200 else {
             throw URLError(.badServerResponse)
         }
-
         let employers = try JSONDecoder().decode([EmployerModel].self, from: data)
-
-        // Store data in SwiftData
         await saveToDatabase(employers, modelContext: modelContext)
     }
 

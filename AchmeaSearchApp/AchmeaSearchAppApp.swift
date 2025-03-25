@@ -12,9 +12,8 @@ import SwiftData
 struct AchmeaSearchAppApp: App {
     var body: some Scene {
         WindowGroup {
-            EmployerSearchView()
+            EmployerSearchView(viewModel: EmployerSearchViewModel())
         }
         .modelContainer(for: [EmployerModel.self])
-        //.modelContainer(sharedModelContainer)
     }
 }

@@ -11,6 +11,7 @@ import SwiftData
 struct EmployerSearchView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var employers: [EmployerModel]
+    let viewModel: EmployerSearchViewModel
     
     var body: some View {
         NavigationStack {
@@ -24,9 +25,6 @@ struct EmployerSearchView: View {
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
@@ -36,12 +34,9 @@ struct EmployerSearchView: View {
         }
     }
     
-    
+    // Temp code for testing.
     func addItem() {
-        withAnimation {
-            let newItem = EmployerModel(discountPercentage: 10, employerID: 0, name: "HelloWorld", place: "Gouda")
-            modelContext.insert(newItem)
-        }
+        viewModel.search(filter: "ach", modelContext: modelContext)
     }
 
     func deleteItems(offsets: IndexSet) {
@@ -54,6 +49,6 @@ struct EmployerSearchView: View {
 }
 
 #Preview {
-    EmployerSearchView()
+    EmployerSearchView(viewModel: EmployerSearchViewModel())
         .modelContainer(for: EmployerModel.self, inMemory: true)
 }

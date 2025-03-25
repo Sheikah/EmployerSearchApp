@@ -16,6 +16,7 @@ class EmployerSearchViewModel {
     var errorMessage: String?
     
     func search(filter: String, modelContext: ModelContext) {
+        // Endpoint only returns values if filter contains more than 1 character.
         if filter.count < 2 {
             loadCachedEmployers(modelContext: modelContext)
         } else {
@@ -31,8 +32,6 @@ class EmployerSearchViewModel {
             do {
                 let service = NetworkService()
                 try await service.searchEmployers(filter: filter, modelContext: modelContext)
-                
-                // Load from SwiftData after fetch
                 loadCachedEmployers(modelContext: modelContext)
             } catch {
                 DispatchQueue.main.async {
