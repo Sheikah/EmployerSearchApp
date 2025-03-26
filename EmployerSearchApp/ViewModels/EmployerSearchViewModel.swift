@@ -41,9 +41,10 @@ class EmployerSearchViewModel {
     }
 
     private func loadCachedEmployers(modelContext: ModelContext) {
-        let fetchDescriptor = FetchDescriptor<EmployerModel>(predicate: #Predicate { employer in
-            employer.createdAt > Calendar.current.date(byAdding: .day, value: -7, to: Date())!
-        })
-        employers = (try? modelContext.fetch(fetchDescriptor)) ?? []
+        // FIXME: I am curious why this piece of code breaks the app without showing any error message. When I enter a string in the predicate there is no issue but it seems to not support a Date..
+//        let fetchDescriptor = FetchDescriptor<EmployerModel>(predicate: #Predicate { employer in
+//            employer.createdAt > Calendar.current.date(byAdding: .day, value: -7, to: Date())!
+//        })
+//        employers = (try? modelContext.fetch(fetchDescriptor)) ?? []
     }
 }
