@@ -5,9 +5,9 @@
 //  Created by Annette Straver on 25/03/2025.
 //
 
-import SwiftData
 import Foundation
-import SwiftUICore
+import SwiftData
+import SwiftUI
 
 @Observable
 class EmployerSearchViewModel {
@@ -24,28 +24,26 @@ class EmployerSearchViewModel {
         }
     }
     
+    func showCachedEmployers(modelContext: ModelContext) {
+        loadCachedEmployers(modelContext: modelContext)
+    }
+    
     private func searchEmployers(filter: String, modelContext: ModelContext) {
-        isLoading = true
-        errorMessage = nil
-        
         Task {
             do {
                 let service = NetworkService()
                 try await service.searchEmployers(filter: filter, modelContext: modelContext)
                 loadCachedEmployers(modelContext: modelContext)
             } catch {
-                DispatchQueue.main.async {
-                    self.errorMessage = error.localizedDescription
-                }
-            }
-            
-            DispatchQueue.main.async {
-                self.isLoading = false
+                //TODO: Show a nice error to the user.
             }
         }
     }
 
     private func loadCachedEmployers(modelContext: ModelContext) {
-        // TODO
+        let fetchDescriptor = FetchDescriptor<EmployerModel>(predicate: #Predicate { employer in
+            employer.createdAt > Calendar.current.date(byAdding: .day, value: -7, to: Date())!
+        })
+        employers = (try? modelContext.fetch(fetchDescriptor)) ?? []
     }
 }

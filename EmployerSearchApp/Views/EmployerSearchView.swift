@@ -18,7 +18,7 @@ struct EmployerSearchView: View {
             VStack {
                 List(employers) { employer in
                     HStack {
-                        Text(employer.name)
+                        Text(employer.name())
                         Spacer()
                         Text(employer.discountPercentage, format: .number)
                     }
@@ -31,7 +31,11 @@ struct EmployerSearchView: View {
                     }
                 }
             }
-        }
+        }.onAppear(perform: load)
+    }
+    
+    private func load() {
+        
     }
     
     // Temp code for testing.

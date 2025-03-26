@@ -10,7 +10,7 @@ import SwiftData
 
 class NetworkService {
     let baseURL = "https://cba.kooijmans.nl/CBAEmployerservice.svc/rest/employers"
-
+    
     func searchEmployers(filter: String, maxRows: Int = 100, modelContext: ModelContext) async throws {
         guard let url = URL(string: "\(baseURL)?filter=\(filter.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "")&maxRows=\(maxRows)") else {
             throw URLError(.badURL)

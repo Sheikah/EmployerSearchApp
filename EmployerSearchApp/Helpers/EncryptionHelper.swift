@@ -10,7 +10,6 @@ import CryptoKit
 
 struct EncryptionHelper {
     
-    // Generate a symmetric key
     static func generateSymmetricKey() -> SymmetricKey {
         return SymmetricKey(size: .bits256)
     }
